@@ -12,7 +12,7 @@
 </head>
 <body>
 <header class="nav">
-  <a class="logo" href="#">SUMERA <span>MEMON</span><small>COSMETICS</small></a>
+  <a href="#" aria-label="Sumera Memon Cosmetics home"><img src="logo.svg" alt="Sumera Memon Cosmetics" style="height:68px;width:68px;display:block"></a>
   <nav>
     <a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a>
   </nav>
@@ -29,8 +29,7 @@
   </div>
   <div class="hero-art">
     <div class="orb"></div>
-    <div class="bottle"><span>SM</span><small>GLOW SERUM</small></div>
-    <div class="flower">✦</div>
+    <img src="logo.svg" alt="Sumera Memon Cosmetics logo" style="position:absolute;width:min(390px,88%);height:auto;filter:drop-shadow(0 22px 30px #60443b35)">
   </div>
 </section>
 
@@ -45,7 +44,7 @@
 </section>
 
 <section id="about" class="about">
-  <div class="about-art"><div class="about-card">SM<br><small>COSMETICS</small></div></div>
+  <div class="about-art"><img src="logo.svg" alt="Sumera Memon Cosmetics" style="width:min(330px,75%);height:auto;filter:drop-shadow(18px 25px 30px #59463c30)"></div>
   <div class="about-copy">
     <p class="eyebrow">OUR STORY</p>
     <h2>Made for your everyday glow.</h2>
@@ -65,28 +64,26 @@
   <p class="eyebrow">LET'S CONNECT</p>
   <h2>Have a question?</h2>
   <p>Message us on WhatsApp for product information and orders.</p>
-  <a class="button" id="whatsapp" href="#" target="_blank">Chat on WhatsApp</a>
+  <a class="button" id="whatsapp" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
 </section>
 </main>
 
-<footer><div class="logo">SUMERA <span>MEMON</span><small>COSMETICS</small></div><p>© 2026 Sumera Memon Cosmetics. All rights reserved.</p></footer>
+<footer><div style="display:flex;align-items:center;gap:14px"><img src="logo.svg" alt="Sumera Memon Cosmetics" style="height:72px;width:72px"><div class="logo">SUMERA <span>MEMON</span><small>COSMETICS</small></div></div><p>© 2026 Sumera Memon Cosmetics. All rights reserved.</p></footer>
 
 <div id="cart" class="cart-overlay" onclick="closeCart(event)">
   <aside class="cart" onclick="event.stopPropagation()">
     <button class="close" onclick="closeCart()">×</button><h2>Your bag</h2>
     <div id="cartItems"></div>
     <div class="cart-total"><span>Total</span><strong id="total">Rs. 0</strong></div>
-    <a id="orderBtn" class="button full" href="#" target="_blank">Order on WhatsApp</a>
+    <a id="orderBtn" class="button full" href="#" target="_blank" rel="noopener">Order on WhatsApp</a>
   </aside>
 </div>
 
 <script src="products.js"></script>
 <script>
-const WA_NUMBER = "923001234567"; // Replace with your WhatsApp number.
+const WA_NUMBER = "923048612975";
 let cart = [];
-
 function money(n){ return "Rs. " + n.toLocaleString("en-PK"); }
-
 function renderProducts(list = PRODUCTS){
   document.getElementById("products").innerHTML = list.map(p => `
     <article class="product">
@@ -95,15 +92,12 @@ function renderProducts(list = PRODUCTS){
       <button class="add" onclick="addToCart(${p.id})">Add to bag</button>
     </article>`).join("");
 }
-function filterProducts(cat, btn){
-  document.querySelectorAll(".filters button").forEach(b=>b.classList.remove("active")); btn.classList.add("active");
-  renderProducts(cat==="all"?PRODUCTS:PRODUCTS.filter(p=>p.category===cat));
-}
-function addToCart(id){ const p=PRODUCTS.find(x=>x.id===id); cart.push(p); updateCart(); openCart(); }
+function filterProducts(cat, btn){document.querySelectorAll(".filters button").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderProducts(cat==="all"?PRODUCTS:PRODUCTS.filter(p=>p.category===cat));}
+function addToCart(id){const p=PRODUCTS.find(x=>x.id===id);cart.push(p);updateCart();openCart();}
 function updateCart(){
   document.getElementById("cartCount").textContent=cart.length;
-  document.getElementById("cartItems").innerHTML=cart.length ? cart.map((p,i)=>`<div class="cart-item"><span>${p.name}</span><strong>${money(p.price)}</strong><button onclick="removeItem(${i})">×</button></div>`).join("") : "<p class='empty'>Your bag is empty.</p>";
-  const total=cart.reduce((s,p)=>s+p.price,0); document.getElementById("total").textContent=money(total);
+  document.getElementById("cartItems").innerHTML=cart.length?cart.map((p,i)=>`<div class="cart-item"><span>${p.name}</span><strong>${money(p.price)}</strong><button onclick="removeItem(${i})">×</button></div>`).join(""):"<p class='empty'>Your bag is empty.</p>";
+  const total=cart.reduce((s,p)=>s+p.price,0);document.getElementById("total").textContent=money(total);
   const msg=encodeURIComponent("Hi Sumera Memon Cosmetics! I want to order:\n"+cart.map(p=>`• ${p.name} — ${money(p.price)}`).join("\n")+`\nTotal: ${money(total)}`);
   document.getElementById("orderBtn").href=`https://wa.me/${WA_NUMBER}?text=${msg}`;
 }
@@ -111,7 +105,7 @@ function removeItem(i){cart.splice(i,1);updateCart();}
 function openCart(){document.getElementById("cart").classList.add("open")}
 function closeCart(e){if(!e||e.target.id==="cart")document.getElementById("cart").classList.remove("open")}
 document.getElementById("whatsapp").href=`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Hi! I want to know more about Sumera Memon Cosmetics.")}`;
-renderProducts(); updateCart();
+renderProducts();updateCart();
 </script>
 </body>
 </html>
