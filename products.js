@@ -1,11 +1,15 @@
-// Add, remove, or edit products here. No other website code needs to change.
+// Sumera Memon Cosmetics product catalogue
 const PRODUCTS = [
-  {id:1,name:"Glow Serum",category:"skincare",price:2199,short:"SM",bg:"#ead4cd"},
-  {id:2,name:"Velvet Lip",category:"makeup",price:1499,short:"SM",bg:"#dfb9b2"},
-  {id:3,name:"Radiance Cream",category:"skincare",price:1899,short:"SM",bg:"#e8ddd2"},
-  {id:4,name:"Soft Blush",category:"makeup",price:1299,short:"SM",bg:"#e9c7c5"},
-  {id:5,name:"Luminous Mist",category:"skincare",price:1599,short:"SM",bg:"#d8dcd0"},
-  {id:6,name:"Nude Gloss",category:"makeup",price:1199,short:"SM",bg:"#d9b9a9"},
-  {id:7,name:"Daily Moisturizer",category:"skincare",price:1699,short:"SM",bg:"#e5d3bf"},
-  {id:8,name:"Silk Foundation",category:"makeup",price:2499,short:"SM",bg:"#d7bba7"}
+  {
+    id: 1,
+    name: "Morphe Highlighter Pencil",
+    category: "makeup",
+    price: 150,
+    bundleQty: 2,
+    bundlePrice: 250,
+    bundleGroup: "morphe-highlighter",
+    shades: ["Oh Brow Baby", "So Worth It"],
+    description: "A handy highlighter pencil for adding definition and brightness to your makeup look. Its pencil format makes precise application easy. Available in two shades: Oh Brow Baby and So Worth It.",
+    image: "assets/morphe-highlighter.jpg"
+  }
 ];

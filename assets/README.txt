@@ -1,1 +1,0 @@
-Product images for Sumera Memon Cosmetics.
