@@ -68,6 +68,6 @@ const PRODUCTS = [
     bundleGroup: "wardabeauty-shiny-eyeliner",
     shades: ["One Colour"],
     description: "A shiny liquid eyeliner made for crisp, defined eye looks with a touch of glamour. Its fine applicator style makes it easy to create clean lines for everyday or party makeup.",
-    image: "assets/wardabeauty-eyeliner-final.jpg?v=11"
+    image: "assets/wardabeauty-eyeliner-final.jpg?v=12"
   }
 ];
