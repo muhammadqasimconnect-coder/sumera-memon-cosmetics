@@ -36,7 +36,7 @@ const PRODUCTS = [
     bundlePrice: 250,
     bundleGroup: "two-tone-bitten-lip",
     shades: ["Pink Two Tone"],
-    description: "Create an effortless gradient lip look with this 2-in-1 Two Tone Bitten Lip. The dual-tone design combines a soft matte look with glossy colour for an easy, blended finish in one swipe. Perfect for quick everyday makeup and a cute Korean-inspired bitten-lip effect.",
-    image: "assets/two-tone-bitten-lip.jpg"
+    description: "Create an effortless gradient lip look with this 2-in-1 Two Tone Bitten Lip. The dual-tone design combines two complementary lip colours for a soft bitten-lip effect in one easy swipe. Its convenient stick format makes it a cute, quick choice for everyday makeup. One colour available.",
+    image: "assets/two-tone-bitten-lip.svg"
   }
 ];
