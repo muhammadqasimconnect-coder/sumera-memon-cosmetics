@@ -26,7 +26,7 @@ const PRODUCTS = [
     bundleGroup: "lilybyred-glassy-tint",
     shades: ["One Colour"],
     description: "A Korean-inspired lip tint with a lightweight feel and glossy, glass-like finish. Gives lips an easy polished pop of colour and shine.",
-    image: "assets/lily-product-v2.svg"
+    image: "assets/lily-product-clean.webp?v=1"
   },
   {
     id: 3,
