@@ -40,6 +40,6 @@ const PRODUCTS = [
     bundleGroup: "two-tone-bitten-lip",
     shades: ["Pink Two Tone"],
     description: "Create a soft gradient bitten-lip effect in one swipe. The two-tone stick blends complementary shades for a cute, effortless everyday lip look.",
-    image: "assets/two-tone-product-v2.svg"
+    image: "assets/two-tone-product-clean.webp?v=1"
   }
 ];
