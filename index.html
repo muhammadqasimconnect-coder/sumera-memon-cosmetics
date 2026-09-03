@@ -37,7 +37,7 @@
   </div>
 </section>
 
-<section class="marquee"><span>FIRST PRODUCT NOW LIVE</span><span>2 HIGHLIGHTER PENCILS FOR RS. 250</span><span>FREE DELIVERY ABOVE RS. 999</span></section>
+<section class="marquee"><span>NEW KOREAN LIP TINT NOW LIVE</span><span>RS. 150 EACH • 2 FOR RS. 250</span><span>FREE DELIVERY ABOVE RS. 999</span></section>
 
 <section id="shop" class="section">
   <div class="section-head">
@@ -60,7 +60,7 @@
 
 <section class="promise">
   <div><strong>01</strong><h3>Beautifully simple</h3><p>Easy-to-love beauty essentials for your routine.</p></div>
-  <div><strong>02</strong><h3>Special bundle price</h3><p>Highlighter Pencil: Rs. 150 each or any 2 for just Rs. 250.</p></div>
+  <div><strong>02</strong><h3>Special bundle price</h3><p>Selected products are Rs. 150 each or 2 of the same product for just Rs. 250.</p></div>
   <div><strong>03</strong><h3>Free delivery above Rs. 999</h3><p>Orders above Rs. 999 get free delivery. Otherwise delivery is Rs. 300.</p></div>
 </section>
 
@@ -78,7 +78,7 @@
   <aside class="cart" onclick="event.stopPropagation()">
     <button class="close" onclick="closeCart()">×</button><h2>Your bag</h2>
     <div id="cartItems"></div>
-    <div style="margin:18px 0 4px;padding:13px;border:1px solid #6a3321;background:#1d1210;color:#f4c25a;font-size:12px;line-height:1.6">✨ Highlighter Pencil offer: <strong>1 for Rs. 150</strong> or <strong>2 for Rs. 250</strong>.<br>🚚 Spend above <strong>Rs. 999</strong> and get <strong>FREE delivery</strong>. Otherwise delivery is <strong>Rs. 300</strong>.</div>
+    <div style="margin:18px 0 4px;padding:13px;border:1px solid #6a3321;background:#1d1210;color:#f4c25a;font-size:12px;line-height:1.6">✨ Bundle offer: <strong>1 for Rs. 150</strong> or <strong>2 of the same product for Rs. 250</strong>.<br>🚚 Spend above <strong>Rs. 999</strong> and get <strong>FREE delivery</strong>. Otherwise delivery is <strong>Rs. 300</strong>.</div>
     <div style="padding-top:14px">
       <div style="display:flex;justify-content:space-between;padding:7px 0;color:#cdb6ab"><span>Items</span><strong id="itemsSubtotal">Rs. 0</strong></div>
       <div id="discountRow" style="display:none;justify-content:space-between;padding:7px 0;color:#f4c25a"><span>2-for-250 discount</span><strong id="bundleDiscount">- Rs. 0</strong></div>
@@ -104,11 +104,11 @@ function renderProducts(list = PRODUCTS){
       </div>
       <div style="padding-top:14px">
         <div style="display:flex;justify-content:space-between;gap:16px;align-items:flex-start">
-          <div><h3 style="font:24px 'Playfair Display',serif;margin:0;color:#fff3e6">${p.name}</h3><p style="font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#d28d61;margin:7px 0">Highlighter Pencil • Makeup</p></div>
+          <div><h3 style="font:24px 'Playfair Display',serif;margin:0;color:#fff3e6">${p.name}</h3><p style="font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#d28d61;margin:7px 0">${p.type || "Makeup"} • Makeup</p></div>
           <strong style="font-size:18px;color:#f2bd54;white-space:nowrap">${money(p.price)}</strong>
         </div>
         <p style="color:#cdb6ab;line-height:1.65;font-size:13px;margin:10px 0 14px">${p.description}</p>
-        <div style="padding:10px 12px;border:1px solid #9b4b26;background:linear-gradient(135deg,#2a110e,#3c1711);color:#f4c25a;font-weight:700;font-size:13px;margin-bottom:14px">SPECIAL OFFER: 1 for Rs. 150 • Any 2 for Rs. 250</div>
+        <div style="padding:10px 12px;border:1px solid #9b4b26;background:linear-gradient(135deg,#2a110e,#3c1711);color:#f4c25a;font-weight:700;font-size:13px;margin-bottom:14px">SPECIAL OFFER: 1 for Rs. 150 • 2 of this product for Rs. 250</div>
         <label for="shade-${p.id}" style="display:block;font-size:11px;letter-spacing:1.5px;color:#f0b44f;margin-bottom:7px;font-weight:700">SELECT COLOUR</label>
         <select id="shade-${p.id}" style="width:100%;padding:12px 13px;background:#130c0b;color:#fff;border:1px solid #7c3d25;margin-bottom:12px;font-family:'DM Sans',sans-serif">
           ${p.shades.map(s=>`<option value="${s}">${s}</option>`).join("")}
