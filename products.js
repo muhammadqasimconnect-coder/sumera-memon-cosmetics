@@ -96,6 +96,6 @@ const PRODUCTS = [
     bundleGroup: "charmrouse-waterproof-eyeliner",
     shades: ["Black"],
     description: "A sleek waterproof eyeliner for clean, defined eye looks. Easy to use for everyday lining or a sharper glam finish.",
-    image: "assets/charmrouse-waterproof-eyeliner.jpg?v=20260918-1"
+    image: "assets/charmrouse-waterproof-eyeliner-fixed.jpg?v=20260918-2"
   }
 ];
