@@ -98,4 +98,17 @@ const PRODUCTS = [
     description: "A sleek waterproof eyeliner for clean, defined eye looks. Easy to use for everyday lining or a sharper glam finish.",
     image: "assets/charmrouse-waterproof-eyeliner-fixed.jpg?v=20260918-2"
   }
+  ,{
+    id: 8,
+    name: "Makeup Combo Deal",
+    category: "makeup",
+    type: "Full Makeup Combo",
+    tag: "DEAL",
+    price: 1000,
+    shades: ["Complete Combo"],
+    optionLabel: "Deal",
+    offer: "Special deal: 1 complete makeup combo for Rs. 1000",
+    description: "A value-packed makeup combo featuring a highlighter palette, two-tone bitten lip, mascara, highlighter pencil and eyeliner in one ready-to-order deal.",
+    image: "assets/makeup-combo-deal-1000.jpg?v=20260918-1"
+  }
 ];
