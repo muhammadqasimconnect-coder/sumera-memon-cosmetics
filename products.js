@@ -111,4 +111,17 @@ const PRODUCTS = [
     description: "A value-packed makeup combo featuring a highlighter palette, two-tone bitten lip, mascara, highlighter pencil and eyeliner in one ready-to-order deal.",
     image: "assets/makeup-combo-deal-final-fixed.jpg?v=20260919-1405"
   }
+  ,{
+    id: 9,
+    name: "Beauty Combo Deal 2",
+    category: "makeup",
+    type: "Beauty Combo",
+    tag: "DEAL 2",
+    price: 1000,
+    shades: ["Complete Combo"],
+    optionLabel: "Deal",
+    offer: "Special deal: 1 complete Beauty Combo for Rs. 1000",
+    description: "A complete beauty combo featuring a 9-shade highlighter and contour palette, 2 in 1 Two Tone Bitten Lip, Nashami Big Eyes mascara, Morphe highlighter pencil and gold liquid eyeliner.",
+    image: "assets/beauty-combo-deal-2.jpg?v=20260919-1516"
+  }
 ];
