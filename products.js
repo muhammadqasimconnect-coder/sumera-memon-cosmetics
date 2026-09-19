@@ -109,6 +109,6 @@ const PRODUCTS = [
     optionLabel: "Deal",
     offer: "Special deal: 1 complete makeup combo for Rs. 1000",
     description: "A value-packed makeup combo featuring a highlighter palette, two-tone bitten lip, mascara, highlighter pencil and eyeliner in one ready-to-order deal.",
-    image: "assets/makeup-combo-deal-exact-user.jpg?v=20260919-1402"
+    image: "assets/makeup-combo-deal-working.jpg?v=20260919-1420"
   }
 ];
