@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#f8dfca"/>
+    <stop offset="1" stop-color="#efb98f"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#8f6420"/>
+    <stop offset=".35" stop-color="#f7df84"/>
+    <stop offset=".7" stop-color="#c79737"/>
+    <stop offset="1" stop-color="#7e5317"/>
+  </linearGradient>
+  <linearGradient id="silver" x1="0" x2="1">
+    <stop offset="0" stop-color="#9b938c"/>
+    <stop offset=".45" stop-color="#eee8df"/>
+    <stop offset="1" stop-color="#aaa29c"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#6b3c24" flood-opacity=".22"/>
+  </filter>
+</defs>
+
+<rect width="1000" height="1000" rx="46" fill="url(#bg)"/>
+<circle cx="875" cy="100" r="135" fill="#fff1e5" opacity=".42"/>
+<circle cx="105" cy="900" r="165" fill="#fff5ed" opacity=".32"/>
+
+<!-- 9 shade palette -->
+<g filter="url(#shadow)" transform="translate(70 90)">
+  <rect x="0" y="0" width="470" height="480" rx="26" fill="#171717"/>
+  <rect x="28" y="28" width="414" height="165" rx="14" fill="#2e2e2e" stroke="#777" stroke-width="4"/>
+  <text x="235" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="#f1d4a2">COLOR PALETTE</text>
+  <g transform="translate(55 220)">
+    <g fill="#e6cf8c"><circle cx="55" cy="55" r="46"/><circle cx="180" cy="55" r="46" fill="#baa55d"/><circle cx="305" cy="55" r="46" fill="#d8b775"/></g>
+    <g><circle cx="55" cy="175" r="46" fill="#b59b7a"/><circle cx="180" cy="175" r="46" fill="#b5a845"/><circle cx="305" cy="175" r="46" fill="#d9c18f"/></g>
+    <g><circle cx="55" cy="295" r="46" fill="#b47d4b"/><circle cx="180" cy="295" r="46" fill="#9f7a4f"/><circle cx="305" cy="295" r="46" fill="#817d7a"/></g>
+  </g>
+</g>
+
+<!-- two tone lip -->
+<g filter="url(#shadow)" transform="translate(565 110)">
+  <rect width="345" height="290" rx="20" fill="#f6a9c7"/>
+  <rect x="260" y="0" width="85" height="290" rx="0 20 20 0" fill="#f22a92"/>
+  <text x="30" y="92" font-family="Arial,sans-serif" font-size="66" font-weight="700" fill="#201719">2 in 1</text>
+  <text x="34" y="145" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#201719">TWO TONE</text>
+  <text x="34" y="181" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#201719">BITTEN LIP</text>
+  <rect x="36" y="214" width="258" height="42" rx="20" fill="#fff2f5" stroke="#fff" stroke-width="4"/>
+  <path d="M120 215 C145 185 185 185 212 215 C186 238 145 238 120 215Z" fill="#df427f"/>
+</g>
+
+<!-- Morphe pencil box -->
+<g filter="url(#shadow)" transform="translate(95 670) rotate(-6 0 0)">
+  <rect width="465" height="105" rx="12" fill="#111"/>
+  <text x="110" y="64" font-family="Arial,sans-serif" font-size="50" font-weight="700" fill="#fff"><tspan fill="#d32923">M</tspan>ORPHE</text>
+  <text x="245" y="88" font-family="Arial,sans-serif" font-size="18" fill="#ddd">Highlight Pencil</text>
+</g>
+
+<!-- mascara -->
+<g filter="url(#shadow)" transform="translate(580 465) rotate(-4 0 0)">
+  <rect width="115" height="390" rx="34" fill="url(#silver)"/>
+  <line x1="0" y1="110" x2="115" y2="110" stroke="#555" stroke-width="4"/>
+  <text transform="translate(53 335) rotate(-90)" font-family="Georgia,serif" font-size="42" fill="#111">Nashami</text>
+  <text transform="translate(82 330) rotate(-90)" font-family="Arial,sans-serif" font-size="23" fill="#333">BIG EYES</text>
+</g>
+
+<!-- gold eyeliner -->
+<g filter="url(#shadow)" transform="translate(760 500) rotate(8 0 0)">
+  <path d="M30 0 H95 L105 235 H20 Z" fill="url(#gold)"/>
+  <rect x="20" y="225" width="85" height="175" rx="22" fill="#161616"/>
+  <text transform="translate(72 360) rotate(-90)" font-family="Georgia,serif" font-size="34" fill="#f4d788">Shiny</text>
+</g>
+
+<text x="500" y="945" text-anchor="middle" font-family="Georgia,serif" font-size="52" font-weight="700" fill="#6f2d1f">BEAUTY COMBO DEAL 2</text>
+<text x="500" y="982" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" fill="#8c4b39">Palette • Lip • Mascara • Highlighter • Eyeliner</text>
+</svg>
