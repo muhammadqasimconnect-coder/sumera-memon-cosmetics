@@ -122,6 +122,6 @@ const PRODUCTS = [
     optionLabel: "Deal",
     offer: "Special deal: 1 complete Beauty Combo for Rs. 1000",
     description: "A complete beauty combo featuring a 9-shade highlighter and contour palette, 2 in 1 Two Tone Bitten Lip, Nashami Big Eyes mascara, Morphe highlighter pencil and gold liquid eyeliner.",
-    image: "assets/beauty-combo-deal-2.jpg?v=20260919-1516"
+    image: "assets/beauty-combo-deal-2-v2.svg?v=20260921-1235"
   }
 ];
