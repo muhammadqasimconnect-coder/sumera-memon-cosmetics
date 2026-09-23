@@ -140,6 +140,6 @@ const PRODUCTS = [
     shades: ["85ml"],
     offer: "85ml — Rs. 250 • 170ml — Rs. 500 • 360ml — Rs. 950",
     description: "A jari booti herbal shampoo formulated for everyday hair care. Helps reduce hair fall, supports darker-looking hair and helps remove dandruff.",
-    image: "assets/sumera-herbal-shampoo.svg?v=20260924-0100"
+    image: "assets/sumera-memon-herbal-shampoo.jpg?v=20260924-0108"
   }
 ];
