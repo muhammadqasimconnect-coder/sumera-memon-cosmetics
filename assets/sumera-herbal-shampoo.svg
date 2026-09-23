@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#120807"/><stop offset=".55" stop-color="#8f1f16"/><stop offset="1" stop-color="#ef7a19"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8d5a0a"/><stop offset=".45" stop-color="#ffd66b"/><stop offset="1" stop-color="#a6660a"/></linearGradient>
+ <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#160d0c"/><stop offset=".5" stop-color="#b72719"/><stop offset="1" stop-color="#3a0d0b"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-opacity=".5"/></filter>
+</defs>
+<rect width="1200" height="1200" rx="70" fill="url(#bg)"/>
+<circle cx="930" cy="220" r="250" fill="#ff9a21" opacity=".14"/><circle cx="220" cy="970" r="300" fill="#000" opacity=".25"/>
+<g filter="url(#shadow)">
+ <rect x="390" y="170" width="420" height="120" rx="34" fill="#111"/>
+ <rect x="455" y="105" width="290" height="100" rx="28" fill="url(#gold)"/>
+ <rect x="335" y="260" width="530" height="720" rx="105" fill="url(#bottle)" stroke="#d99c2b" stroke-width="9"/>
+ <rect x="385" y="440" width="430" height="380" rx="45" fill="#0c0908" stroke="url(#gold)" stroke-width="7"/>
+</g>
+<text x="600" y="525" text-anchor="middle" fill="#ffd66b" font-family="Georgia,serif" font-weight="700" font-size="58">SUMERA MEMON</text>
+<text x="600" y="598" text-anchor="middle" fill="#fff2cf" font-family="Arial,sans-serif" font-weight="700" font-size="48">ORGANIC SHAMPOO</text>
+<text x="600" y="662" text-anchor="middle" fill="#f3a02e" font-family="Arial,sans-serif" font-size="35">JARI BOOTI • HERBAL CARE</text>
+<path d="M475 730c60-85 135-96 196-20-72 9-125 45-151 105-16-28-31-54-45-85Z" fill="#caa339"/>
+<path d="M665 748c39-69 90-87 144-50-49 24-80 60-92 109-17-20-34-40-52-59Z" fill="#7d9a38"/>
+<text x="600" y="875" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="32">HERBAL HAIR CARE</text>
+<text x="600" y="1055" text-anchor="middle" fill="#ffe2a1" font-family="Arial,sans-serif" font-size="30">85ml • 170ml • 360ml</text>
+</svg>
