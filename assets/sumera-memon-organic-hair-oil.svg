@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#170302"/>
+    <stop offset=".48" stop-color="#7f150b"/>
+    <stop offset="1" stop-color="#ef6a0b"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+    <stop offset="0" stop-color="#ffc04f" stop-opacity=".5"/>
+    <stop offset=".6" stop-color="#a0180e" stop-opacity=".1"/>
+    <stop offset="1" stop-color="#120202" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#805006"/>
+    <stop offset=".3" stop-color="#ffd76c"/>
+    <stop offset=".62" stop-color="#f4b32e"/>
+    <stop offset="1" stop-color="#774300"/>
+  </linearGradient>
+  <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#070707"/>
+    <stop offset=".45" stop-color="#2a150d"/>
+    <stop offset=".67" stop-color="#0b0b0b"/>
+    <stop offset="1" stop-color="#020202"/>
+  </linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="25" stdDeviation="25" flood-color="#000" flood-opacity=".55"/></filter>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<rect width="1200" height="1200" fill="url(#glow)"/>
+<circle cx="1030" cy="170" r="260" fill="#ffb52b" opacity=".08"/>
+<circle cx="140" cy="1010" r="300" fill="#ffbd3a" opacity=".07"/>
+
+<text x="80" y="120" fill="#ffd974" font-family="Georgia,serif" font-style="italic" font-size="64">Organic Hair Oil</text>
+<text x="80" y="180" fill="#ffe8af" font-family="Georgia,serif" font-size="36">Nourish • Strengthen • Care</text>
+
+<g filter="url(#shadow)">
+  <rect x="486" y="120" width="228" height="92" rx="24" fill="#121212"/>
+  <rect x="520" y="75" width="160" height="64" rx="20" fill="url(#gold)"/>
+  <rect x="410" y="200" width="380" height="810" rx="95" fill="url(#bottle)" stroke="#c88b1f" stroke-width="7"/>
+  <rect x="452" y="370" width="296" height="500" rx="34" fill="#111" stroke="url(#gold)" stroke-width="5"/>
+</g>
+
+<text x="600" y="455" text-anchor="middle" fill="#ffd974" font-family="Georgia,serif" font-weight="700" font-size="58">Sumera</text>
+<text x="600" y="515" text-anchor="middle" fill="#ffd974" font-family="Georgia,serif" font-weight="700" font-size="58">Memon</text>
+<text x="600" y="578" text-anchor="middle" fill="#fff2cd" font-family="Arial,sans-serif" font-size="40">Organic Hair Oil</text>
+<rect x="492" y="606" width="216" height="52" rx="20" fill="url(#gold)"/>
+<text x="600" y="642" text-anchor="middle" fill="#261502" font-family="Arial,sans-serif" font-weight="700" font-size="24">HERBAL HAIR CARE</text>
+
+<g transform="translate(600 720)">
+  <path d="M0 60 C-48 15,-95 18,-132 45 C-85 58,-52 86,-31 122 C-16 94,-7 77,0 60Z" fill="#6f9630"/>
+  <path d="M0 60 C48 15,95 18,132 45 C85 58,52 86,31 122 C16 94,7 77,0 60Z" fill="#9ab13a"/>
+  <circle cx="-58" cy="125" r="28" fill="#c98c23"/>
+  <circle cx="47" cy="132" r="26" fill="#e65719"/>
+</g>
+
+<g fill="#fff0c8" font-family="Arial,sans-serif" font-size="25">
+  <text x="485" y="888">• Helps Support Hair Growth</text>
+  <text x="485" y="928">• Helps Reduce Hair Fall</text>
+  <text x="485" y="968">• Nourishes Scalp &amp; Hair</text>
+</g>
+
+<g fill="#ffe1a1" font-family="Georgia,serif">
+  <text x="835" y="425" font-size="34">Hair Growth</text>
+  <text x="835" y="555" font-size="34">Less Hair Fall</text>
+  <text x="835" y="685" font-size="34">Herbal Care</text>
+</g>
+<g fill="none" stroke="#ffd66b" stroke-width="6">
+  <circle cx="795" cy="410" r="40"/><path d="M777 428c24-8 38-28 37-55"/>
+  <circle cx="795" cy="540" r="40"/><path d="M774 558c27-8 43-28 46-49c-24 1-40 17-46 49Z"/>
+  <circle cx="795" cy="670" r="40"/><path d="M795 646v48M772 670h46"/>
+</g>
+
+<text x="600" y="1080" text-anchor="middle" fill="#ffd66b" font-family="Arial,sans-serif" font-size="27" letter-spacing="3">ORGANIC • HERBAL • EVERYDAY HAIR CARE</text>
+<text x="600" y="1132" text-anchor="middle" fill="#fff4d5" font-family="Arial,sans-serif" font-size="25">50ml • 100ml</text>
+</svg>
