@@ -2,3 +2,13 @@
 .combo-media{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4px;padding:4px;background:#f8f3ef}.combo-media img{width:100%;height:100%;object-fit:cover;display:block;min-width:0;min-height:0}.combo-media .badge{position:absolute;left:14px;top:14px;z-index:2}
 
 .checkout{background:#981d16;color:#fff}.checkout:hover{background:#7f1512}.disabled{pointer-events:none;opacity:.5}
+
+.social-links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+.social-btn{display:inline-flex;align-items:center;justify-content:center;min-width:110px;padding:11px 16px;border-radius:999px;color:#fff;font-size:13px;font-weight:800;transition:.2s;box-shadow:0 6px 18px #0001}
+.social-btn:hover{transform:translateY(-2px);filter:brightness(.96)}
+.social-btn.tiktok{background:#111}
+.social-btn.instagram{background:linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5)}
+.social-btn.facebook{background:#1877f2}
+.social-btn.youtube{background:#ff0000}
+.footer-social-text{margin-top:5px;color:#9f8f86;font-size:11px}
+@media(max-width:580px){.social-btn{min-width:46%;padding:11px 10px}.social-links{gap:8px}}
