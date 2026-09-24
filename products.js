@@ -158,5 +158,22 @@ const PRODUCTS = [
     offer: "50ml — Rs. 250 • 100ml — Rs. 500",
     description: "A nourishing organic hair oil for everyday hair care. Helps support healthier-looking hair growth, helps reduce hair fall and nourishes the scalp and hair.",
     image: "assets/sumera-memon-organic-hair-oil.svg?v=20260924-2348"
+  },
+  {
+    id: 12,
+    name: "Desi Pakki",
+    category: "wellness",
+    type: "Herbal Digestive Mix",
+    tag: "NEW",
+    price: 250,
+    optionLabel: "Choose size",
+    sizes: [
+      { label: "40gm", price: 250 },
+      { label: "80gm", price: 500 }
+    ],
+    shades: ["40gm"],
+    offer: "40gm — Rs. 250 • 80gm — Rs. 500",
+    description: "A traditional herbal digestive mix made for everyday wellness. Supports digestion and can be used as part of a balanced weight-management routine.",
+    image: "assets/desi-pakki.svg?v=20260924-2355"
   }
 ];
