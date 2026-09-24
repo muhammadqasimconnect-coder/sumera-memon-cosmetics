@@ -127,7 +127,7 @@ function renderSummary(){
     return;
   }
   holder.innerHTML=cart.map(p=>'<div class="summary-item"><div><strong>'+p.name+'</strong><small>'+(p.shade||"")+'</small></div><strong>'+money(p.price)+'</strong></div>').join("");
-  const x=pricing(city);
+  const x=pricing(document.getElementById("city").value);
   itemsSubtotal.textContent=money(x.itemsTotal);
   bundleDiscount.textContent="- "+money(x.discount);
   discountRow.classList.toggle("hidden",x.discount<=0);
@@ -160,7 +160,7 @@ document.getElementById("checkoutForm").addEventListener("submit",function(e){
   const city=document.getElementById("city").value;
   const address=document.getElementById("fullAddress").value.trim();
   const promo=(appliedPromo||document.getElementById("promoCode").value.trim().toUpperCase());
-  const x=pricing();
+  const x=pricing(city);
   const deliveryText=x.delivery===0&&x.subtotal>=2000&&city==="Karachi"?"FREE":money(x.delivery);
   const discountText=x.discount>0?"\nBundle discount: -"+money(x.discount):"";
   const itemLines=cart.map((p,i)=>(i+1)+". "+p.name+" ("+(p.shade||"Default")+") — "+money(p.price)).join("\n");
