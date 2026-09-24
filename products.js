@@ -141,5 +141,22 @@ const PRODUCTS = [
     offer: "85ml — Rs. 250 • 170ml — Rs. 500 • 360ml — Rs. 950",
     description: "A jari booti herbal shampoo formulated for everyday hair care. Helps reduce hair fall, supports darker-looking hair and helps remove dandruff.",
     image: "assets/sumera-memon-herbal-shampoo-premium.svg?v=20260924-2345"
+  },
+  {
+    id: 11,
+    name: "Sumera Memon Organic Hair Oil",
+    category: "haircare",
+    type: "Organic Hair Oil",
+    tag: "NEW",
+    price: 250,
+    optionLabel: "Choose size",
+    sizes: [
+      { label: "50ml", price: 250 },
+      { label: "100ml", price: 500 }
+    ],
+    shades: ["50ml"],
+    offer: "50ml — Rs. 250 • 100ml — Rs. 500",
+    description: "A nourishing organic hair oil for everyday hair care. Helps support healthier-looking hair growth, helps reduce hair fall and nourishes the scalp and hair.",
+    image: "assets/sumera-memon-organic-hair-oil.svg?v=20260924-2348"
   }
 ];
