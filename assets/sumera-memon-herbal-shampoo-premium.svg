@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2b0503"/>
+    <stop offset=".45" stop-color="#8c160b"/>
+    <stop offset="1" stop-color="#f06a0a"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+    <stop offset="0" stop-color="#ffbf45" stop-opacity=".55"/>
+    <stop offset=".55" stop-color="#a7190d" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#160404" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8c5607"/>
+    <stop offset=".28" stop-color="#ffd56e"/>
+    <stop offset=".58" stop-color="#f6b632"/>
+    <stop offset="1" stop-color="#7f4a05"/>
+  </linearGradient>
+  <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#080808"/>
+    <stop offset=".42" stop-color="#242424"/>
+    <stop offset=".62" stop-color="#0b0b0b"/>
+    <stop offset="1" stop-color="#020202"/>
+  </linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000" flood-opacity=".5"/></filter>
+</defs>
+
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<rect width="1200" height="1200" fill="url(#glow)"/>
+<circle cx="1050" cy="160" r="260" fill="#ffb52e" opacity=".09"/>
+<circle cx="110" cy="1030" r="290" fill="#ffbd3c" opacity=".08"/>
+
+<!-- decorative leaves -->
+<g opacity=".5" fill="#6b8f2d">
+  <ellipse cx="120" cy="820" rx="42" ry="95" transform="rotate(-35 120 820)"/>
+  <ellipse cx="175" cy="860" rx="34" ry="78" transform="rotate(25 175 860)"/>
+  <ellipse cx="1040" cy="820" rx="42" ry="95" transform="rotate(35 1040 820)"/>
+  <ellipse cx="990" cy="870" rx="34" ry="78" transform="rotate(-25 990 870)"/>
+</g>
+
+<!-- headline -->
+<text x="80" y="115" fill="#ffd974" font-family="Georgia,serif" font-style="italic" font-size="64">Pure Herbs</text>
+<text x="80" y="180" fill="#ffd974" font-family="Georgia,serif" font-style="italic" font-size="54">Healthier Hair Naturally</text>
+
+<!-- bottle -->
+<g filter="url(#shadow)">
+  <rect x="470" y="120" width="260" height="76" rx="26" fill="#080808"/>
+  <rect x="530" y="70" width="140" height="70" rx="18" fill="#111"/>
+  <rect x="446" y="185" width="308" height="95" rx="28" fill="url(#gold)"/>
+  <rect x="390" y="255" width="420" height="760" rx="110" fill="url(#bottle)" stroke="#c98720" stroke-width="7"/>
+  <rect x="430" y="370" width="340" height="500" rx="34" fill="#121212" stroke="url(#gold)" stroke-width="5"/>
+</g>
+
+<!-- label -->
+<text x="600" y="455" text-anchor="middle" fill="#ffd974" font-family="Georgia,serif" font-weight="700" font-size="58">Sumera</text>
+<text x="600" y="515" text-anchor="middle" fill="#ffd974" font-family="Georgia,serif" font-weight="700" font-size="58">Memon</text>
+<text x="600" y="575" text-anchor="middle" fill="#fff3d0" font-family="Arial,sans-serif" font-size="39">Organic Shampoo</text>
+<rect x="500" y="602" width="200" height="52" rx="20" fill="url(#gold)"/>
+<text x="600" y="638" text-anchor="middle" fill="#241404" font-family="Arial,sans-serif" font-weight="700" font-size="25">WITH JARI BOOTI</text>
+
+<!-- herb motif -->
+<g transform="translate(600 710)">
+  <path d="M0 65 C-45 20,-90 20,-125 45 C-78 55,-47 83,-30 118 C-12 91,-5 80,0 65Z" fill="#7aa33b"/>
+  <path d="M0 65 C45 20,90 20,125 45 C78 55,47 83,30 118 C12 91,5 80,0 65Z" fill="#9ab541"/>
+  <circle cx="-50" cy="118" r="28" fill="#d89d28"/>
+  <circle cx="35" cy="128" r="25" fill="#b8c93a"/>
+  <path d="M-10 105 C15 80,50 75,78 90" fill="none" stroke="#e84a1a" stroke-width="15" stroke-linecap="round"/>
+</g>
+
+<!-- benefits on bottle -->
+<g fill="#fff2cf" font-family="Arial,sans-serif" font-size="24">
+  <text x="485" y="875">• Helps Reduce Hair Fall</text>
+  <text x="485" y="913">• Supports Darker-Looking Hair</text>
+  <text x="485" y="951">• Helps Remove Dandruff</text>
+</g>
+
+<!-- side benefits -->
+<g fill="#ffe1a1" font-family="Georgia,serif">
+  <text x="850" y="380" font-size="34">Reduces</text><text x="850" y="420" font-size="34">Hair Fall</text>
+  <text x="850" y="525" font-size="34">Helps</text><text x="850" y="565" font-size="34">Blacken Hair</text>
+  <text x="850" y="670" font-size="34">Removes</text><text x="850" y="710" font-size="34">Dandruff</text>
+</g>
+
+<!-- simple icons -->
+<g fill="none" stroke="#ffd66b" stroke-width="6">
+  <circle cx="805" cy="395" r="44"/><path d="M788 410c18-7 30-25 25-48"/>
+  <circle cx="805" cy="540" r="44"/><path d="M785 557c25-7 42-25 44-47c-22 1-39 14-44 47Z"/>
+  <circle cx="805" cy="685" r="44"/><path d="M805 660v50M780 685h50M788 668l34 34M822 668l-34 34"/>
+</g>
+
+<!-- footer -->
+<text x="600" y="1085" text-anchor="middle" fill="#ffd66b" font-family="Arial,sans-serif" font-size="26" letter-spacing="3">HERBAL CARE • JARI BOOTI • EVERYDAY HAIR CARE</text>
+<text x="600" y="1135" text-anchor="middle" fill="#fff4d5" font-family="Arial,sans-serif" font-size="23">85ml • 170ml • 360ml</text>
+</svg>
